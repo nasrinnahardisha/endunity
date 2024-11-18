@@ -1,0 +1,35 @@
+.social-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  background: #ffd25d;
+  color: black;
+  font-size: 20px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.icon:hover {
+  background-color: lightgray;
+}
+
+@media (max-width: 991px) {
+  .icon {
+    width: 40px;
+    height: 50px;
+    background: #ffd25d;
+
+  }
+}
+
+@media (max-width: 768px) {
+
+}

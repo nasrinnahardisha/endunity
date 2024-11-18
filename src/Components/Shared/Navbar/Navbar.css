@@ -369,18 +369,18 @@ p {
     overflow: hidden;
     width: 100%;
     position: absolute;
-    top: 93px;
+    top: 126px;
     left: 0;
   }
 
   .nav-menu.nav-open {
-    max-height: 400px; /* Adjust height as necessary */
+    max-height: 400px; 
   }
 
   .nav-item {
     margin-top: 16px;
     margin-left: 16px;
-    /* Ensure consistent margin and spacing */
+   
   }
 
   .navbar {
@@ -389,7 +389,7 @@ p {
   }
 
   .brand {
-    flex-grow: 1; /* Push the brand to the left */
+    flex-grow: 1; 
   }
   .btn {
     width: 205px;
